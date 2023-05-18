@@ -1,0 +1,103 @@
+/* CSS Reset & Global Styles */
+* {
+  box-sizing: border-box;
+  background-color: rgb(5, 4, 5);
+  padding: 4px 4px;
+  margin: 30% , 30%;
+  border-radius: 80px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans';
+  -webkit-appearance: none;
+}
+
+::placeholder {
+  color: rgb(16, 13, 13);
+  font-size: 24px;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(231, 27, 27);
+  transition: 0.8s all;
+}
+
+h1 {
+  margin-bottom: 1.5%;
+  color: #fff;
+  font-weight: normal;
+}
+
+.container {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.top-buttons {
+  display: flex;
+  align-items: center;
+
+}
+
+input {
+  padding: 25px;
+  color: rgb(8, 6, 6);
+  font-size: 1em;
+  cursor: pointer;
+  width: 70px;
+  background-color: rgb(110, 123, 120);
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  margin: 0.2em;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row {
+  margin-bottom: 4px;
+}
+
+input[type="text"] {
+  background-color: rgb(217, 214, 218);
+  width: 222.5px;
+}
+
+input[type="button"]:hover {
+  background-color: rgb(155, 138, 151);
+  color: #fff;
+}
+
+#clear-button {
+  color: #fff;
+  background-color: rgb(255, 42, 42);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#github-icon {
+  margin-right: 10px;
+}
+
+.theme-button {
+  all: unset;
+  cursor: pointer;
+}
